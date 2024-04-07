@@ -18,6 +18,8 @@ function App() {
   return (
     <div>
       <PokemonCard pokemon={pokemonList[0]} />
+      <button>Précédent</button>
+      <button>Suivant</button>
     </div>
   );
 }
